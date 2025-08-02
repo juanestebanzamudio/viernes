@@ -1,6 +1,11 @@
 name: Linters
 
 on: 
+  push:
+    branches:
+      branches
+        - main
+        - develop
   pull_request:
     branches:
       branches
