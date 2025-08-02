@@ -1,9 +1,9 @@
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
-  background: linear-gradient(to bottom, #8573e9, #4d699e);
+  background: linear-gradient(to bottom, #857     3e9, #4d699e);
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h3 {
   width: 350px;
   margin: 0 auto;
   border-radius: 10px;
-  color: #ffffff;
+  color: #fff;
 }
 
 form {
@@ -35,7 +35,9 @@ label {
   text-align: left;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   padding: 10px;
   margin-top: 5px;
   border: none;
