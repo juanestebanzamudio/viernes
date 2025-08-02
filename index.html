@@ -10,8 +10,8 @@
   <h3>GRACIAS POR DEJAR SUS DATOS</h3>
 
   <div class="form-container">
-    <form>
-      < label for="name">Nombre</label>
+    <form id="form">
+      <label for="name">Nombre</label>
       <input type="text" id="name" placeholder="Por favor ingrese su nombre." required>
 
            <label for="email">Correo</label>
@@ -50,8 +50,16 @@
       <label for="comments">¿Tiene alguna pregunta o comentarios?</label>
       <textarea id="comments" placeholder="Por favor ingreselos."></textarea>
 
-      <button type="submit">Enviar</button>
+      <input type="submit" value="Enviar">
     </form>
+    <div id="modal-success" class="modal hidden">
+      <div class="modal-content">
+        <h2>Datos enviados con exito</h2>
+        <button id="close-model">CERRAR</button>
+      </div>
+    </div>
+
   </div>
 </body>
+<script type="module" src="main.js"></script>
 </html>
